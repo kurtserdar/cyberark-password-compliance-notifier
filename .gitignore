@@ -1,0 +1,21 @@
+# Secrets - DPAPI credential files (never commit)
+*.cred.xml
+pvwa.cred.xml
+smtp.cred.xml
+ad.cred.xml
+
+# Runtime output
+Logs/
+Reports/
+notify-state.json
+*.tmp
+
+# Per-environment configs (keep only the example in the repo)
+*.psd1
+!example.config.psd1
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
